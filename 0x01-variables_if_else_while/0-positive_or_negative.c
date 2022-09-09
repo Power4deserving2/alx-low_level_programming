@@ -9,15 +9,15 @@
  */
 int main(void) /*this is the main description*/
 {
-	int n;
+int n; /*Here i place the variable type*/
 
-	srand(time(0));
-		n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else if (n < 0)
-		printf("%d is negative\n", n);
-	return (0);
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+printf("%d is positive\n", n);
+else if (n == 0)
+printf("%d is zero\n", n);
+else if (n < 0)
+printf("%d is negative\n", n);
+return (0);
 }
