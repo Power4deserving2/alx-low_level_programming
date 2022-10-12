@@ -1,6 +1,6 @@
 /*
  * File: 2-print_dog.c
- * Auth: Jan Nelson
+ * Auth: Immanuel Peter.
  */
 
 #include "dog.h"
@@ -26,5 +26,7 @@ void print_dog(struct dog *d)
 			printf("Owner: %s\n", d->owner);
 		else
 			printf("Owner: (nil)\n");
+
 	}
+
 }

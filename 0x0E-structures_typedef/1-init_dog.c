@@ -1,6 +1,6 @@
 /*
  * File: 1-init_dog.c
- * Auth: Jan Nelson
+ * Auth: Immanuel Peter
  */
 
 #include "dog.h"
@@ -20,5 +20,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 		d->name = name;
 		d->age = age;
 		d->owner = owner;
+
 	}
+
 }

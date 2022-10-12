@@ -1,6 +1,6 @@
 /*
  * File: 4-new_dog.c
- * Auth: Jan Nelson
+ * Auth: Immanuel Peter
  */
 
 #include "dog.h"
@@ -85,4 +85,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	doggs->owner = _strcopy(doggs->owner, owner);
 
 	return (doggs);
+
 }
