@@ -1,6 +1,6 @@
 /*
  * File: 3-main.c
- * Auth: Immanuel Peter.
+ * Auth: Immanuel Peter
  */
 
 #include "3-calc.h"
