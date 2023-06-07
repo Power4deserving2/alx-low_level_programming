@@ -8,7 +8,7 @@ include "main.h"
  * @n - This is the number to be factorised.
  *
  * return; if n < 0 it returns -1 to show it failed
- * 	   if n > 0 it finds the factorial
+ * if n > 0 it finds the factorial
  */
 int factorial(int n);
 {
@@ -19,6 +19,6 @@ int factorial(int n);
 		return (1);
 
 	else
-		return (n *= factorial(n-1))
+		return (n *= factorial(n - 1))
 
 }
