@@ -1,29 +1,24 @@
 /*
- * 3-factorial.c
  * Auth: Immanuel Peter
+ * Project: 3_factorial.c
  */
-
-#include "main.h"
-
-/**
- * factorial - Returns the factorial of a given number.
- * @n: The number to find the factorial of.
+include "main.h"
+/*
+ * factorial - Returns the factorial of a number.
+ * @n - This is the number to be factorised.
  *
- * Return: If n > 0 - the factorial of n.
- *         If n < 0 - 1 to indicate an error.
+ * return; if n < 0 it returns -1 to show it failed
+ * 	   if n > 0 it finds the factorial
  */
-int factorial(int n)
+int factorial(int n);
 {
-	int result = n;
-
 	if (n < 0)
 		return (-1);
 
 	else if (n >= 0 && n <= 1)
 		return (1);
 
-	result *= factorial(n - 1);
-
-	return (result);
+	else
+		return (n *= factorial(n-1))
 
 }
