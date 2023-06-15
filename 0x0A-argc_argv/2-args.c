@@ -8,7 +8,7 @@
 /**
  * main - Prints all arguments it receives.
  * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
+ * @argv: An array of pointers to the arguments brought.
  *
  * Return: Always 0.
  */
